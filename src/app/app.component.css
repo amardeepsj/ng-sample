@@ -1,0 +1,20 @@
+.appHeaderName {
+    color: rgba(150, 150, 238, 0.637);
+}
+
+.headerStyle {
+    border: 2px solid rgba(162, 165, 163, 0.56);
+    border-radius: 17px;
+    margin-top: 15px;
+    padding-left: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.searchBox {
+    padding-top: 12px
+}
+
+.red {
+    color: red;
+}
