@@ -11,4 +11,8 @@ export class ProfileService {
   createUser(params) {
     return this.http.post("api URL", params);
   }
+
+  getPosts() {
+    return this.http.get("https://jsonplaceholder.typicode.com/posts");
+  }
 }

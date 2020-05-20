@@ -8,6 +8,7 @@ import { HomeComponent } from './components/home/home.component';
 import { Page2Component } from './components/page2/page2.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { TableModule } from 'primeng/table';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { HttpClientModule } from '@angular/common/http';
     AppRoutingModule,
     ReactiveFormsModule,
     MenubarModule,
-    HttpClientModule
+    HttpClientModule,
+    TableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
